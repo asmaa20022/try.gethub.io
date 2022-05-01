@@ -1,0 +1,87 @@
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}  
+body {
+  margin:0px;
+  padding: 0px;
+
+  background-color: black;
+}
+a{
+  text-decoration: none;
+}
+::selection{
+  background-color:red;
+  color: black;
+  
+}
+
+.logo{
+  color:red;
+  text-transform:uppercase ;
+  font-size:4rem;
+  font-weight:400;
+  margin: 0px auto 0px 40px;
+  display:flex ;
+  align-items:center ;
+  font-family: 'Berkshire Swash', cursive;
+  letter-spacing: 1px;
+}
+.fa-hat-wizard {
+  color:white ;
+  font-size:990;}
+  #main-slider{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width:1170px;
+    width:100%;
+    
+  }
+
+.info{
+  font-size: 50px;
+  color:  #F3F3F3;
+  font-weight:bold ;
+  align-items: center;
+  justify-content: center;
+  padding: 30px ;
+  margin: 30px;
+  display:flex ;
+font-family: 'Berkshire Swash', cursive;
+}
+.pp{
+    color: #FFFFFF;
+   font-size: 40px;
+  padding: 20px; 
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 35px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.text {
+  color: #F3F4FF;
+  font-size: 25px;
+  
+}
+
+ul {
+  color: #F3F4FF;
+  font-size: 25px;
+  margin: 20px;
+}
+.hh{color: #E4E124}
+.img {
+ display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px ;
+margin: 10px;
+width: 300px;
+
+}
